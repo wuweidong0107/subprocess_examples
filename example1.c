@@ -4,7 +4,7 @@
 int main(int argc, char **argv)
 {
     const char *command_line[] = {"/usr/bin/ls", NULL};
-    struct subprocess_s process;
+    struct subprocess process;
     int ret = -1;
     char line[512];
 
