@@ -7,4 +7,4 @@ all: $(TARGET)
 	$(CROSS_COMPILE)gcc $^ -o $@
 
 clean:
-	rm -f example
+	rm -f example1 example2

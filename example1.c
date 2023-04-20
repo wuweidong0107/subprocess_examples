@@ -14,7 +14,7 @@ int main(int argc, char **argv)
         return 1;
     }
 
-    if (0 != subprocess_join(&process, &ret)) {
+    if (0 != subprocess_join(&process, 0, &ret)) {
         fprintf(stderr, "fail to subprocess_join\n");
         return 1;
     }
